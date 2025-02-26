@@ -21,6 +21,9 @@
   "engines": {
     "node": ">= 10"
   },
+  "repository": {
+    "url": "https://github.com/AltF02/astro-squeeze"
+  },
   "libc": [
     "glibc"
   ]

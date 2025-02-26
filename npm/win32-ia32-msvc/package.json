@@ -20,5 +20,8 @@
   "license": "EUPL-1.2",
   "engines": {
     "node": ">= 10"
+  },
+  "repository": {
+    "url": "https://github.com/AltF02/astro-squeeze"
   }
 }
