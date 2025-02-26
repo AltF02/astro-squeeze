@@ -1,5 +1,5 @@
 {
-  "name": "@napi-rs/package-template-linux-x64-musl",
+  "name": "astro-squeeze-linux-x64-musl",
   "version": "0.1.1",
   "os": [
     "linux"
@@ -10,11 +10,11 @@
   "libc": [
     "musl"
   ],
-  "main": "package-template.linux-x64-musl.node",
+  "main": "astro-squeeze.linux-x64-musl.node",
   "files": [
-    "package-template.linux-x64-musl.node"
+    "astro-squeeze.linux-x64-musl.node"
   ],
-  "description": "Template project for writing node package with napi-rs",
+  "description": "Fast astro compressor written in rust",
   "keywords": [
     "napi-rs",
     "NAPI",
@@ -31,5 +31,5 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "git@github.com:napi-rs/package-template.git"
+  "repository": "https://codeberg.org/matthew/astro-squeeze.git"
 }

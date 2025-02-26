@@ -4,8 +4,9 @@
   "main": "index.js",
   "type": "module",
   "types": "index.d.ts",
+  "description": "Fast astro compressor written in rust",
   "napi": {
-    "name": "package-template",
+    "name": "astro-squeeze",
     "triples": {
       "defaults": true,
       "additional": [
