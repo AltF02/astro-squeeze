@@ -1,15 +1,15 @@
 {
-  "name": "@napi-rs/package-template-win32-x64-msvc",
+  "name": "@napi-rs/package-template-android-arm64",
   "version": "1.0.0",
   "os": [
-    "win32"
+    "android"
   ],
   "cpu": [
-    "x64"
+    "arm64"
   ],
-  "main": "package-template.win32-x64-msvc.node",
+  "main": "package-template.android-arm64.node",
   "files": [
-    "package-template.win32-x64-msvc.node"
+    "package-template.android-arm64.node"
   ],
   "description": "Template project for writing node package with napi-rs",
   "keywords": [
