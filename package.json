@@ -5,6 +5,11 @@
   "type": "module",
   "types": "index.d.ts",
   "description": "Fast astro compressor written in rust",
+  "keywords": [
+    "Rust",
+    "astro-plugin",
+    "brotli"
+  ],
   "napi": {
     "name": "astro-squeeze",
     "triples": {
@@ -23,7 +28,7 @@
       ]
     }
   },
-  "license": "MIT",
+  "license": "EUPL-1.2",
   "devDependencies": {
     "@napi-rs/cli": "^2.17.0",
     "astro": "^5.3.1",
@@ -46,5 +51,20 @@
   },
   "dependencies": {
     "yarn": "^1.22.22"
+  },
+  "optionalDependencies": {
+    "astro-squeeze-win32-x64-msvc": "0.1.2",
+    "astro-squeeze-darwin-x64": "0.1.2",
+    "astro-squeeze-linux-x64-gnu": "0.1.2",
+    "astro-squeeze-linux-x64-musl": "0.1.2",
+    "astro-squeeze-linux-arm64-gnu": "0.1.2",
+    "astro-squeeze-win32-ia32-msvc": "0.1.2",
+    "astro-squeeze-linux-arm-gnueabihf": "0.1.2",
+    "astro-squeeze-darwin-arm64": "0.1.2",
+    "astro-squeeze-android-arm64": "0.1.2",
+    "astro-squeeze-freebsd-x64": "0.1.2",
+    "astro-squeeze-linux-arm64-musl": "0.1.2",
+    "astro-squeeze-win32-arm64-msvc": "0.1.2",
+    "astro-squeeze-android-arm-eabi": "0.1.2"
   }
 }

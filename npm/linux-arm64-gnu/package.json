@@ -7,29 +7,21 @@
   "cpu": [
     "arm64"
   ],
-  "libc": [
-    "glibc"
-  ],
   "main": "astro-squeeze.linux-arm64-gnu.node",
   "files": [
     "astro-squeeze.linux-arm64-gnu.node"
   ],
   "description": "Fast astro compressor written in rust",
   "keywords": [
-    "napi-rs",
-    "NAPI",
-    "N-API",
     "Rust",
-    "node-addon",
-    "node-addon-api"
+    "astro-plugin",
+    "brotli"
   ],
-  "license": "MIT",
+  "license": "EUPL-1.2",
   "engines": {
     "node": ">= 10"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
-  "repository": "https://codeberg.org/matthew/astro-squeeze.git"
+  "libc": [
+    "glibc"
+  ]
 }
