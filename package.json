@@ -5,6 +5,9 @@
   "type": "module",
   "types": "index.d.ts",
   "description": "Fast astro compressor written in rust",
+  "repository": {
+    "url": "https://github.com/AltF02/astro-squeeze"
+  },
   "keywords": [
     "Rust",
     "astro-plugin",
