@@ -1,0 +1,39 @@
+{
+  "name": "astro-squeeze",
+  "version": "0.0.0",
+  "main": "index.js",
+  "type": "module",
+  "types": "index.d.ts",
+  "napi": {
+    "name": "astro-squeeze",
+    "triples": {
+      "additional": [
+        "aarch64-apple-darwin"
+      ]
+    }
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@napi-rs/cli": "^2.17.0",
+    "astro": "^5.3.1",
+    "vitest": "^3.0.7"
+  },
+  "ava": {
+    "timeout": "3m"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "artifacts": "napi artifacts",
+    "build": "napi build --js bindings.cjs --dts bindings.d.ts --platform --release",
+    "build:debug": "napi build --js bindings.cjs --dts bindings.d.ts --platform",
+    "prepublishOnly": "napi prepublish -t npm",
+    "test": "vitest",
+    "universal": "napi universal",
+    "version": "napi version"
+  },
+  "dependencies": {
+    "yarn": "^1.22.22"
+  }
+}
