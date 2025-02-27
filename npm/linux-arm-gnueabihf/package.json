@@ -1,6 +1,6 @@
 {
   "name": "astro-squeeze-linux-arm-gnueabihf",
-  "version": "0.2.3",
+  "version": "1.0.0",
   "os": [
     "linux"
   ],
