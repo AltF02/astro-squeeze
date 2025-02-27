@@ -51,8 +51,5 @@
     "test": "vitest",
     "universal": "napi universal",
     "version": "napi version"
-  },
-  "dependencies": {
-    "yarn": "^1.22.22"
   }
 }
