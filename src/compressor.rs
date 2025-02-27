@@ -8,7 +8,7 @@ use futures::stream;
 use futures::stream::StreamExt;
 use thiserror::Error;
 use tokio::fs::File;
-use tokio::io::{AsyncWriteExt, BufReader};
+use tokio::io::BufReader;
 use tokio::{fs, io::AsyncReadExt as TokioAsyncReadExt, task};
 use tracing::{info, instrument};
 use walkdir::WalkDir;
